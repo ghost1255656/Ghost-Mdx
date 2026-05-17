@@ -1,53 +1,73 @@
-## Old Version Fork Members Please Fork Again this repository___👨‍💻📃
-<br>
-Get New Version__😎✔
-  
-  <p align="center">
-<a href="https://github.com/MrMasterOfc/SESSION-GENERATE/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
-     
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-   <p align="center">
-<a href="https://github.com/MrMasterOfc">
-    <img src="https://telegra.ph/file/c227d87605ffa07c7871c.png" width="700px">
-  </a>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+# 👻 GHOST BOT — WhatsApp Multi-Device Bot
 
+## ✅ Features
+- 🎵 Song download (MP3)
+- 📹 Video download (YouTube, TikTok, Instagram, Facebook, Twitter)
+- 🤖 AI chat
+- 🌤️ Weather info
+- 🎵 Lyrics
+- 🌐 Translate
+- 👑 Group commands (kick, promote, tagall...)
+- 🖼️ Sticker create/convert
+- 🔑 **Real WhatsApp Pair Code API**
 
+---
 
-# 👨‍💻 *SESSION MADE BY MASTER MIND* 👨‍💻
+## 🚀 Render.com Deploy
 
+### Step 1 — GitHub push
+```bash
+git init
+git add .
+git commit -m "GHOST BOT v2"
+git remote add origin https://github.com/YOUR_USERNAME/ghost-bot
+git push -u origin main
+```
 
-## *NOTE*
-- *SESSION ID GENERATOR FOR X-ASENA AND SECKTOR MD BASED BOTS*
-- *IN ORDER TO USE PAIR CODE AND SESSION ID'S YOU HAVE TO USE*
-- *OTHER-WISE THE PAIR CODE WILL NOT WORK AND NOR SESSIOND ID'S*
+### Step 2 — Render setup
+1. render.com → **New +** → **Web Service**
+2. GitHub repo connect
+3. Settings:
+   - **Build Command:** `npm install`
+   - **Start Command:** `npm start`
+   - **Plan:** Free
 
+### Step 3 — Environment Variables (Render Dashboard)
+```
+BOT_NAME     = GHOST
+PREFIX       = .
+OWNER_NUMBER = 94XXXXXXXXX
+```
 
-## *DEPLOYMENT METHODS*
-- ***DEPLOY ON `HEROKU` OR `RENDER` OR ANY PLATFROM YOU LIKE***
-- ***CREATE HEROKU OR RENDER ACCOUNT***
-- ***CREATE NEW APP AND CONNECT YOUR REPOSITORY USING GITHUB***
-- ***THEN DEPLOY THE REPO AND BOOM 💥***
-- ***DON'T FORGOT TO STAR THE REPO***
+### Step 4 — Pair Code ගන්න
+Bot deploy unama:
+```
+https://your-render-url.onrender.com/pair?phone=94771234567
+```
+ඒ code WhatsApp → Settings → Linked Devices → Link with phone number → Enter code
 
- <details close>
-<summary>HOW TO DEPLOY 👨‍💻 SESSON-GENERATER 👨‍💻</summary>
-   
-    1: First Fork the Repo.
-    2: Then Go to Heroku Web Page
-    3: Create Heroku App
-    4: Add Heroku Postgres package
-    5: Click Deploy Tab And Add Github Your fork Repostory
-    6: Click Deploy Branch
-    7: Click view
-    8: Enjoy
-   </details>
+---
 
+## 📱 Commands
 
-## DEPLOY VIDEO
-[Click](https://www.youtube.com/watch?v=Gsswl2Ojp3Q)
+| Command | Description |
+|---------|-------------|
+| `.menu` | All commands |
+| `.ping` | Speed check |
+| `.song [name]` | MP3 download |
+| `.video [url]` | YouTube video |
+| `.tiktok [url]` | TikTok no watermark |
+| `.insta [url]` | Instagram reel |
+| `.fb [url]` | Facebook video |
+| `.sticker` | Image → Sticker |
+| `.ai [text]` | AI chat |
+| `.weather [city]` | Weather |
+| `.lyrics [song]` | Song lyrics |
+| `.translate [text]` | Translate to Sinhala |
+| `.kick @user` | Remove from group |
+| `.promote @user` | Make admin |
+| `.tagall` | Tag everyone |
 
-<br>
+---
 
-
-[`Helper`](https://wa.me/+94720797915?text=Session_Problem😢)
+## 👻 GHOST BOT v2.0
